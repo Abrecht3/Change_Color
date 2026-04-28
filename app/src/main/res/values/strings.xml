@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">ChangeColorExample</string>
+    <string name="app_name">Change_Color</string>
+    <string name="texto">Texto</string>
+    <string name="icon">icon</string>
 </resources>

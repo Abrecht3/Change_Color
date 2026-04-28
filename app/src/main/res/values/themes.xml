@@ -1,0 +1,71 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppRed" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimary">@color/rojo_primary</item>
+        <item name="android:windowBackground">@color/rojo_fondo</item>
+        <item name="android:textColorPrimary">#4a0000</item>
+    </style>
+
+    <style name="AppBlue" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimary">@color/azul_primary</item>
+        <item name="android:windowBackground">@color/azul_fondo</item>
+        <item name="android:textColorPrimary">#0D47A1</item>
+    </style>
+
+    <style name="AppGreen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimary">@color/verde_primary</item>
+        <item name="android:windowBackground">@color/verde_fondo</item>
+        <item name="android:textColorPrimary">#1B5E20</item>
+    </style>
+
+    <style name="AppViolet" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimary">@color/morado_primary</item>
+        <item name="android:windowBackground">@color/morado_fondo</item>
+        <item name="android:textColorPrimary">#880E4F</item>
+    </style>
+
+    <style name="AppOrange" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimary">@color/naranja_primary</item>
+        <item name="android:windowBackground">@color/naranja_fondo</item>
+        <item name="android:textColorPrimary">#E65100</item>
+    </style>
+
+    <style name="AppPink" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimaryVariant">#880E4F</item>
+        <item name="colorPrimary">@color/rosa_primary</item>
+        <item name="android:windowBackground">@color/rosa_fondo</item>
+        <item name="android:textColorPrimary">#880E4F</item>
+    </style>
+
+    <style name="AppYellow" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:statusBarColor">@color/amarillo_primary</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimary">@color/amarillo_primary</item>
+        <item name="android:windowBackground">@color/amarillo_fondo</item>
+        <item name="android:textColorPrimary">#000000</item>
+    </style>
+
+    <style name="AppBlack" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/negro_primary</item>
+        <item name="android:windowBackground">@color/negro_fondo</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+    </style>
+
+</resources>
