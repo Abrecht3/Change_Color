@@ -1,8 +1,26 @@
+# Archivos específicos de Android Studio / IntelliJ
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
+.gradle/
+build/
+captures/
+local.properties
+.externalNativeBuild/
+.cxx/
+*.hprof
+
+# Archivos de salida de compilación
+**/build/
+
+# Archivos de sistema
 .DS_Store
-/build
-/captures
+Thumbs.db
+
+# Secretos y llaves (¡Muy importante!)
+*.jks
+*.keystore
+google-services.json
+
+# Archivos temporales de edición
+*.swp
+*~
